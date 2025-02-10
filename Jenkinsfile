@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/aanuoluwapoakinyera/elections-result.git' // Use your own repo
+                git branch: 'main', url: 'https://github.com/aanuoluwapoakinyera/elections-result.git' // Use your own repository
             }
         }
 
